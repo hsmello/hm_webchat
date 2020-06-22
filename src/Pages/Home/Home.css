@@ -1,0 +1,59 @@
+.home_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.home_boxes {
+    height: 90vh;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    align-items: center;
+    padding-top: 10vh;
+}
+.home_body {
+    font-family: 'Chelsea Market', cursive;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.home_type_name, 
+.create_room {
+    width: 305px;
+    margin: 0px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 2px;
+}
+
+.each_room {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+}
+
+.room_name {
+    padding-left: 20px;
+}
+
+
+
+.all_rooms_table {
+    width: 600px;
+    height: 50vh;
+    border-radius: 2px;
+    background: white;
+    padding: 10px;
+    margin: auto;   
+}
+
+.all_rooms_table_body {
+    display: grid;
+
+}

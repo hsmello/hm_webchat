@@ -1,0 +1,37 @@
+.messageContainer {
+    display: flex;
+    margin: 0px;
+
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.textContainer {
+    padding: 1px 5px;
+    margin: 5px;
+    word-break: break-word;
+}
+
+.sentBy {
+    margin: 5px;
+    font-size: 12px;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.sentText {
+    padding: 1px 5px;
+    margin: 5px;
+}
+
+.currentUserContainer {
+    border-radius: 10px 10px 10px 0px;
+    background-color: rgb(2, 179, 179);
+}
+
+.notCurrentUserContainer {
+    border-radius: 10px 10px 0px 10px;
+    background-color: rgb(207, 157, 90);
+}
