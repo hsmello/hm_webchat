@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from 'socket.io-client';
 
+import APIBaseUrl from '../../Components/API/API';
 import MyTextField from '../../Components/MaterialUI/MyTextField';
 import MyButton from '../../Components/MaterialUI/MyButton';
 import Input from '../../Components/Input/Input';
@@ -18,7 +19,7 @@ export default function Loggedin({ location }) {
     const [message, setMessage] = useState([]);
     const [messages, setMessages] = useState([]);
 
-    const ENDPOINT = APIBaseUrl || 'localhost:5000';
+    const ENDPOINT = APIBaseUrl;
 
 
     useEffect(() => {

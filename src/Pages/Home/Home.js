@@ -3,6 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import './Home.css'
 import io from 'socket.io-client';
 
+import APIBaseUrl from '../../Components/API/API';
 import MyTextField from '../../Components/MaterialUI/MyTextField';
 import MyButton from '../../Components/MaterialUI/MyButton';
 
@@ -17,7 +18,7 @@ export default function Home() {
     const [joinButtonDisabled, setJoinButtonDisabled] = useState(true)
     const [createButtonDisabled, setCreateButtonDisabled] = useState(true)
     const [redirect, setRedirect] = useState(false)
-    const ENDPOINT = APIBaseUrl || 'localhost:5000';
+    const ENDPOINT = APIBaseUrl;
     const history = useHistory()
 
     useEffect(() => {
