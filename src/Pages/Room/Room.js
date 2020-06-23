@@ -18,7 +18,7 @@ export default function Loggedin({ location }) {
     const [message, setMessage] = useState([]);
     const [messages, setMessages] = useState([]);
 
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = APIBaseUrl || 'localhost:5000';
 
 
     useEffect(() => {

@@ -17,7 +17,7 @@ export default function Home() {
     const [joinButtonDisabled, setJoinButtonDisabled] = useState(true)
     const [createButtonDisabled, setCreateButtonDisabled] = useState(true)
     const [redirect, setRedirect] = useState(false)
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = APIBaseUrl || 'localhost:5000';
     const history = useHistory()
 
     useEffect(() => {
